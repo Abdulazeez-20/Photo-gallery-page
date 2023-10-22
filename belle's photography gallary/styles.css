@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 211, 195);
+}
+
+.hero{
+    text-align: center;
+    font-size: 22px;
+}
+
+.holder {
+    margin: 30px 0;
+}
+
+h1{
+    margin: 0;
+    font: bold;
+}
+
+h2{
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: #3f3838;
+}
+
+img{
+    width: 100%;
+}
+
+.our-work {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin: 0px;
+    text-align: center;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #332f2f;
+    font: bold;
+    margin-bottom: 0;
+}
+
+.card p {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    margin-top: 0;
+}
+
+.footer p{
+    margin: 0;
+    font-size: 12px;
+}
+
+@media (min-width: 768px){
+
+    
+   .hero{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+   }
+
+   .holder{
+    margin: auto;
+   }
+
+   .camera-image{
+    width: 60%;
+   }
+
+   p{
+    font-size: 20px;
+   }
+
+   .card h3{
+    font-size: 30px;
+   }
+
+   h2{
+    font-size: 20px;
+   }
+
+   .card p{
+    font-size:20px;
+    }
+    .footer p{
+        font-size:20px;
+    }
+    .footer h1{
+        font-size: 30px;
+    }
+
+}
+
+@media (min-width: 1220px) and (max-width: 1440px) {
+
+    
+    .hero{
+     font-size: 50px;
+    }
+ 
+    p{
+     font-size: 40px;
+    }
+
+    .card h3{
+     font-size: 40px;
+    }
+ 
+    h2{
+     font-size: 35px;
+    }
+    .card p{
+        font-size:20px;
+    }
+    .fotter p{
+        font-size:20px;
+    }
+    .card p{
+        font-size: 20px;
+    }
+    .footer h1{
+        font-size: 50px;
+    }
+ 
+ }
